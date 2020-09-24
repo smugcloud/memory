@@ -4,10 +4,11 @@ This is a helper library to quickly determine the total memory allocation of a v
 
 Currently supported types:
 ```
+all numeric types (int, int32, int64...)
 string
 slice
 map
-struct
+struct (standalone or nested)
 ```
 
 ## Example
