@@ -9,3 +9,18 @@ slice
 map
 struct
 ```
+
+## Example
+```
+package main
+
+import (
+    "fmt"
+    "github.com/smugcloud/memory"
+)
+
+func main(){
+    s := "example"
+    fmt.Println(memory.GetSize(s))
+}
+```
